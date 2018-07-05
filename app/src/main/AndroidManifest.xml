@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="varsity.baiust.sria.operatingsystem">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Welcome"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main_Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fundamental_area"
+            android:screenOrientation="portrait" />
+        <activity android:name=".over_view" />
+        <activity
+            android:name=".About_Enter"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Properties" />
+        <activity android:name=".Process_Starting" />
+        <activity
+            android:name=".NoteList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditNote"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_Note"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Linux_And_BASH"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Linux" />
+        <activity android:name=".Bash" />
+        <activity
+            android:name=".Process_Area"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scheduling_Area"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Scheduling_Overview" />
+        <activity android:name=".FCFS" />
+        <activity android:name=".SJF" />
+        <activity android:name=".Thread_OverView" />
+        <activity android:name=".Management" />
+        <activity android:name=".Security" />
+        <activity android:name=".Algorithm_Area" />
+        <activity android:name=".Deadlock" />
+        <activity android:name=".Deadlock_OverView"></activity>
+    </application>
+
+</manifest>

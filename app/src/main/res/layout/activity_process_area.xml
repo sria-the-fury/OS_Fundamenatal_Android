@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundamental"
+    tools:context=".Process_Area">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/process_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue_for_fundamental"
+        android:textAlignment="center"
+        app:titleTextColor="@color/White" />
+
+    <Button
+        android:id="@+id/p_over_view_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:alpha=".80"
+        android:background="@drawable/round_shape_button_for_fun"
+        android:fontFamily="sans-serif"
+        android:text="@string/overview"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <Button
+        android:id="@+id/scheduling_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:alpha=".80"
+        android:background="@drawable/round_shape_button_for_fun"
+        android:fontFamily="sans-serif"
+        android:text="@string/scheduling"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <Button
+        android:id="@+id/deadlock_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:alpha=".80"
+        android:background="@drawable/round_shape_button_for_fun"
+        android:fontFamily="sans-serif"
+        android:text="@string/deadlock"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.570" />
+
+
+</android.support.constraint.ConstraintLayout>

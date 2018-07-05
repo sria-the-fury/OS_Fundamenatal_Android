@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="LightBlack">#B0000000</color>
+    <color name="light_blue_for_fundamental">#e1070011</color>
+    <color name="blue">#c0313fff</color>
+
+    <color name="light_blue_for_deadlock">#cd0d0319</color>
+
+    <color name="light_scheduling">#cb162238</color>
+
+    <color name="light_green">#E19ADFE4</color>
+</resources>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Operating System</string>
+
+    <!-- Main_Menu  Area -->
+    <string name="Fund">Fundamental</string>
+    <string name="OS">OS Family</string>
+    <string name="linux_bash">Linux BASH</string>
+    <string name="about">About</string>
+    <string name="Algorithms">Algorithms</string>
+
+    <!-- Fundamental  Area -->
+    <string name="overview">Overview</string>
+    <string name="properties">Properties</string>
+    <string name="process">Processes</string>
+    <string name="scheduling">Scheduling</string>
+    <string name="multithreading">Threads</string>
+    <string name="mem_manage">Management</string>
+    <string name="paging">Paging</string>
+    <string name="Security">Security</string>
+
+    <!-- Algorithm  Area -->
+    <string name="CPU">CPU Scheduling</string>
+    <string name="Demand_Paging">Demand Paging</string>
+    <string name="bankers_algorithm">Banker\'s</string>
+
+
+    <string name="linux">Linux</string>
+    <string name="bash">BASH</string>
+
+    <!-- About Area -->
+    <string name="about_fundamental">Operating System Fundamental</string>
+    <string name="Version_Num">Version : 1.0</string>
+    <string name="author">© Astro_0.3</string>
+    <string name="reference">Reference</string>
+    <string name="books">Books : </string>
+    <string name="Book_name">Operating System Concepts by Abraham Silberschatz.</string>
+    <string name="others">Others : </string>
+    <string name="others_name">Tutorials Point,Pexels.com,Wikipedia,Google etc.</string>
+    <string name="tools">Tools : </string>
+    <string name="tools_name">Android Studio,GIMP,Inkscape,Adobe Photoshop,Libre office, Atom etc.</string>
+    <string name="go">go</string>
+    <string name="feedback">FeedBack</string>
+    <string name="user_feed">Your Valuable feedback may be helped us to develop this app better.
+    You can help us by giving suggestion or if you find any problem, you can give us your feedback.</string>
+    <string name="email_feedback">feedback</string>
+    <string name="close">X</string>
+
+
+    <string name="hint_for_edit_note">Write Something</string>
+    <string name="hint_for_add_note">Start Writing your Note</string>
+
+    <string name="deadlock">Deadlock</string>
+
+
+    <string name="fcfs">FCFS</string>
+    <string name="sjf">SJF</string>
+    <string name="srtf">SRTF</string>
+    <string name="priority">Priority</string>
+    <string name="round_robin">Round Robin</string>
+
+
+    <string name="kernel">Kernel</string>
+
+
+</resources>

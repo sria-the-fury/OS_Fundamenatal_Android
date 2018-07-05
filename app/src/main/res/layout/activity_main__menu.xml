@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu"
+    android:gravity="center_vertical"
+    tools:context=".Main_Menu">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/menu_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightBlack"
+        app:titleTextColor="@color/White"/>
+
+
+    <Button
+        android:id="@+id/funbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:alpha=".80"
+        android:background="@drawable/capsul_shape_button"
+        android:fontFamily="sans-serif"
+        android:text="@string/Fund"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.250" />
+
+
+    <Button
+        android:id="@+id/algobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:alpha=".80"
+        android:background="@drawable/capsul_shape_button"
+        android:fontFamily="sans-serif"
+        android:text="@string/Algorithms"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.400" />
+
+    <Button
+        android:id="@+id/linux_bashbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:alpha=".80"
+        android:background="@drawable/capsul_shape_button"
+        android:fontFamily="sans-serif"
+        android:text="@string/linux_bash"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.550" />
+
+    <Button
+        android:id="@+id/aboutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:alpha=".80"
+        android:background="@drawable/capsul_shape_button"
+        android:fontFamily="sans-serif"
+        android:text="@string/about"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.700" />
+
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/note_enter_img_btn"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="296dp"
+        android:background="@drawable/note"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
